@@ -11,7 +11,7 @@
   /* background-size: cover;  */
   margin: -31px; 
   margin-left:-7px;
-  border: 6px solid rgba(0, 77, 64, 0.4); 
+  border: 6px solid rgb(124 9 153);
   border-radius: 50% !important;
 }
 
@@ -84,8 +84,8 @@
 .readme {
   position: relative;
   padding: 11px 35px;
-  background: #fff;
-  color: #00796b;
+  background: none;
+  color: white;
   border: 2px solid #fff;
   font-weight: 600;
   font-size: 15px;
@@ -95,10 +95,10 @@
   -webkit-border-radius: 5px;
 }
 
-/* .readme:hover{
-  color: white;
-  background-color: #00796b;
-} */
+.readme:hover{
+  color: #cf0fff;
+  background-color: #ffffff;
+}
 
 .contactme {
   position: relative;
@@ -116,7 +116,7 @@
 }
 
 .contactme:hover{
-  color: #00796b;
+  color: #cf0fff;
   background-color: white;
 }
 /* main body */
@@ -201,6 +201,7 @@ nav i {
 
 main {
   background: url(../../assets/img/bg.png) repeat;
+  /* background-color: #b531de; */
   padding-left: 190px;
 }
 
@@ -258,6 +259,7 @@ ul.table-of-contents li.logo a.active, ul.table-of-contents li.logo a:hover {
 
 ul.side-nav.fixed li.logo {
   background-color: #fafafa;
+  /* background-color: #d08814; */
   border-bottom: 1px solid #ddd;
   box-sizing: content-box;
   min-height: 90px;
@@ -271,11 +273,12 @@ ul.side-nav.fixed li.logo a {
 
 ul.table-of-contents li:not(.logo) a.active, ul.table-of-contents li:not(.logo) a:hover {
   background-color: #fafafa;
+  
   border-left: 3px solid;
 }
 
 ul.side-nav.fixed.table-of-contents li:not(.logo) a span, ul#slide-out li:not(.logo) a span {
-  color: #333 !important;
+  color: rgb(0, 0, 0) !important;
 }
 
 li.logo span {
@@ -320,7 +323,8 @@ h3 {
 } */
 
 #intro.section {
-  background: #a7ffeb repeat;
+  /* background: #a7ffeb repeat; */
+  background: #cf0fff repeat;
   position: relative;
 }
 
@@ -368,6 +372,7 @@ h3 {
   /* The alpha value allows the text and background color
    of the button to still show through. */
   background-color: rgba(33, 150, 243, 0.2);
+  
 }
 
 .card {
@@ -549,7 +554,8 @@ small {
 /* main .teal-text */
 
 .teal-text {
-  color: #008073 !important;
+  /* color: #008073 !important; */
+  color: rgb(124 9 153) !important;
 }
 
 /* .teal-text {
@@ -559,7 +565,7 @@ small {
 /* .teal */
 
 .teal {
-  background-color: #008073 !important;
+  background-color: #af34ec !important;
 }
 
 /* .teal {
@@ -602,7 +608,7 @@ small {
     position: absolute;
   }
   nav a.button-collapse, nav a.button-collapse i {
-    color: #009688;
+    color: #e3091f;
     height: 56px;
     line-height: 56px;
   }
